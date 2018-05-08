@@ -1,5 +1,14 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clearfix {
+    clear: both;
 }

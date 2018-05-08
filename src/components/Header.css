@@ -1,0 +1,76 @@
+.Header__main {
+    position: fixed;
+    width: 100vw;
+    color: #fff;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.Header__main a {
+    text-decoration: none;
+}
+
+.Header__main-scrolled {
+    background: rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease-in;
+}
+
+.Header__container {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.Header__nav-item {
+    float: left;
+    color: rgb(206, 206, 206);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 15px;
+}
+
+.Header__nav-item .active {
+    border-bottom: 1px solid rgb(206, 206, 206);
+} 
+
+.Header__nav-item:hover {
+    border-bottom: 1px solid rgb(219, 29, 61);
+    /* transition: border-bottom 1s, border-color 1s, border-opacity 1s; */
+}
+
+.Header__nav-menuicon {
+    font-size: 23px;
+    padding-top: 10px;
+    padding-right: 15px;
+    display: none;
+}
+
+a.Header__company-name {
+    font-size: 31px;
+    margin-left: 30px;
+    color: rgb(219, 29, 61);
+    font-weight: bold;
+}
+
+.Header__nav {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .Header__nav-item {
+        display: none;
+    }
+    .Header__nav-menuicon {
+        display: block;
+    }
+    .Header__nav-open .Header__nav-menuicon {
+        float: right;
+    }
+    .Header__nav-open .Header__nav-item {
+        float: none;
+        display: block;
+        text-align: left;
+        background: rgba(0, 0, 0, 0.3);
+    }
+}

@@ -37,9 +37,9 @@ export default class Header extends React.Component {
                         'Header__nav-open': this.state.open
                     })}>
                         <a className="Header__nav-menuicon" onClick={() => this.setState({ open: !this.state.open })}><i className="fa fa-bars"></i></a>
-                        <a className="Header__nav-item active">Landing</a>
-                        <a className="Header__nav-item">About Us</a>
-                        <a className="Header__nav-item">Things We've Made Possible</a>
+                        <a className="Header__nav-item active">Home</a>
+                        <a className="Header__nav-item">About</a>
+                        <a className="Header__nav-item">Portfolio</a>
                     </nav>
                     <div className="clearfix"></div>
                 </div>

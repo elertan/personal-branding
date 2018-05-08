@@ -1,11 +1,10 @@
 .Landing__main {
-    height: calc(100vh - 6px);
-    width: calc(100vw - 6px);
+    height: 100vh;
+    width: 100vw;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/images/background6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid white;
 }
 
 .Landing__container {

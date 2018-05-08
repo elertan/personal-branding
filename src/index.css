@@ -1,16 +1,36 @@
-* {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
     width: 100vw;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .clearfix {
     clear: both;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Dosis, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: Dosis, Verdana, Geneva, Tahoma, sans-serif;
+    color: #777;
+    font-size: 15px;
+}
+
+blockquote {
+    font-family: Dosis, Verdana, Geneva, Tahoma, sans-serif;
+    color: #777;
+}
+
+blockquote p {
+    margin-bottom: 1em;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
 }

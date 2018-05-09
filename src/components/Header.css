@@ -47,7 +47,8 @@
 .Header__nav-menuicon {
     font-size: 23px;
     position: fixed;
-    right: 20px;
+    top: 28px;
+    right: 30px;
     /* padding-right: 15px; */
     display: none;
 }
@@ -72,7 +73,6 @@ a.Header__company-name {
     }
     .Header__nav-menuicon {
         display: block;
-        top: 20px;
     }
     .Header__nav.Header__nav-open {
         position: fixed;

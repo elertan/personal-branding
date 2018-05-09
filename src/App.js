@@ -15,6 +15,7 @@ class App extends React.Component {
                 <Landing>
                     <Header />
                 </Landing>
+                <div id="after-landing"></div>
                 <About />
                 <Portfolio />
                 <Blogs />

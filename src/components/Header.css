@@ -12,7 +12,7 @@
 }
 
 .Header__main-scrolled {
-    background: rgba(15, 15, 15, 1);
+    background: rgba(15, 15, 15, 0.95);
     transition: background 0.3s ease-in;
     z-index: 9999;
 }
@@ -73,7 +73,8 @@ a.Header__company-name {
         display: none;
     }
     .Header__nav-menuicon {
-        display: block;
+        /* Disabled because its not working yet */
+        /* display: block; */
     }
     .Header__nav.Header__nav-open {
         position: fixed;

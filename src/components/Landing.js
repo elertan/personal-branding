@@ -15,6 +15,7 @@ export default class Landing extends React.Component {
                     <Fade bottom delay={1500}>
                         <p className="Landing__slogan-extra">We craft applications that you love to use.</p>
                     </Fade>
+                    <div className="Landing__scroll-down-button" onClick={() => document.getElementById('after-landing').scrollIntoView({ behavior: 'smooth' })}></div>
                 </div>
                 {this.props.children}
             </div>

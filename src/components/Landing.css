@@ -38,3 +38,37 @@
     margin-right: 25px;
     letter-spacing: 3px;
 }
+
+.Landing__scroll-down-button {
+    background: url(/images/scroll-down.png) no-repeat;
+    background-size: contain;
+    width: 55px;
+    height: 60px;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 27.5px);
+    filter: invert(75%);
+    animation: Landing__scroll-down-button-anim 2s infinite alternate ease-in-out, Landing__scroll-down-button-fadein 3s ease-in;
+}
+
+@keyframes Landing__scroll-down-button-fadein {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes Landing__scroll-down-button-anim {
+    0% {
+        bottom: 40px;
+    }
+    100% {
+        bottom: 70px;
+    }
+}

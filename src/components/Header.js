@@ -21,6 +21,10 @@ export default class Header extends React.Component {
         };
     }
 
+    scrollToComponentByClass = (className) => {
+        document.getElementsByClassName(className)[0].scrollIntoView({ behavior: 'smooth' });
+    }
+
     render() {
         return (
             <header className={classnames({
@@ -37,10 +41,10 @@ export default class Header extends React.Component {
                         'Header__nav-open': this.state.open
                     })}>
                         <a className="Header__nav-menuicon" onClick={() => this.setState({ open: !this.state.open })}><i className="fa fa-bars"></i></a>
-                        <a className="Header__nav-item active">Home</a>
-                        <a className="Header__nav-item">About</a>
-                        <a className="Header__nav-item">Portfolio</a>
-                        <a className="Header__nav-item">Blog</a>
+                        <a className="Header__nav-item active" onClick={() => this.scrollToComponentByClass('Landing__main')}>Home</a>
+                        <a className="Header__nav-item" onClick={() => this.scrollToComponentByClass('About__main')}>About</a>
+                        <a className="Header__nav-item" onClick={() => this.scrollToComponentByClass('Portfolio__main')}>Portfolio</a>
+                        <a className="Header__nav-item" onClick={() => this.scrollToComponentByClass('Blogs__main')}>Blogs</a>
                     </nav>
                     <div className="clearfix"></div>
                 </div>

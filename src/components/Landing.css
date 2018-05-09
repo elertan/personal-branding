@@ -25,9 +25,11 @@
     margin-top: -5px;
     margin-left: 45px;
     margin-right: 15px;
+    opacity: 0%;
 }
 
 .Landing__slogan-extra {
+    opacity: 0%;
     text-align: center;
     color: rgb(206, 206, 206);
     font-size: 1.25em;

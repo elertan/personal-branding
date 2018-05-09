@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 800px) {
     .About__main {
-        padding: 100px;
-        padding-top: 60px;
+        padding: 50px;
+        padding-top: 20px;
     }
 }

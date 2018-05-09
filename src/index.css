@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+/* .react-reveal {
+    animation-fill-mode: none !important;
+} */
+
 body {
     margin: 0;
     padding: 0;

@@ -13,7 +13,7 @@ export default class Landing extends React.Component {
                         <p className="Landing__slogan">Your vision, our solution.</p>
                     </Fade>
                     <Fade bottom delay={1500}>
-                        <p className="Landing__slogan-extra">We craft applications that people love.</p>
+                        <p className="Landing__slogan-extra">We craft applications that you love to use.</p>
                     </Fade>
                 </div>
                 {this.props.children}

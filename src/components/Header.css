@@ -31,21 +31,24 @@
     line-height: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: border-color 1s;
+    border-bottom: 1px solid rgba(51, 49, 49, 0);
 }
 
-.Header__nav-item .active {
-    border-bottom: 1px solid rgb(245, 245, 245);
+.Header__nav-item.active {
+    border-bottom: 1px solid rgb(219, 29, 61);
 } 
 
 .Header__nav-item:hover {
-    border-bottom: 1px solid rgb(219, 29, 61);
-    /* transition: border-bottom 1s, border-color 1s, border-opacity 1s; */
+    border-bottom: 1px solid rgba(51, 49, 49, 1);
+    transition: border-color 300ms;
 }
 
 .Header__nav-menuicon {
     font-size: 23px;
-    padding-top: 10px;
-    padding-right: 15px;
+    position: fixed;
+    right: 20px;
+    /* padding-right: 15px; */
     display: none;
 }
 
@@ -69,6 +72,12 @@ a.Header__company-name {
     }
     .Header__nav-menuicon {
         display: block;
+        top: 20px;
+    }
+    .Header__nav.Header__nav-open {
+        position: fixed;
+        top: 83px;
+        width: 100vw;
     }
     .Header__nav-open .Header__nav-menuicon {
         float: right;

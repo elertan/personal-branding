@@ -40,6 +40,7 @@ export default class Header extends React.Component {
                         <a className="Header__nav-item active">Home</a>
                         <a className="Header__nav-item">About</a>
                         <a className="Header__nav-item">Portfolio</a>
+                        <a className="Header__nav-item">Blog</a>
                     </nav>
                     <div className="clearfix"></div>
                 </div>
